@@ -1,12 +1,12 @@
 {
-  "name": "John Doe",
-  "shortName": "JD",
-  "org": "John Doe Inc.",
-  "image": "/assets/images/avatar.png",
+  "name": "L. Jordan Miller",
+  "shortName": "LJM",
+  "org": "Spinscript Synergies LLC",
+  "image": "src/assets/images/laptop.png",
   "title": "Software Engineer",
-  "currentFocus": "Full Stack Development",
-  "location": "Frankfurt, Germany",
-  "email": "myemail@myemail.ext",
+  "currentFocus": "Socio-Technical Development",
+  "location": "St. Pete, FL, USA",
+  "email": "jordan@spinscriptsynergies.com",
   "address": {
     "streetAddress": "Demo street 1",
     "addressLocality": "Frankfurt am Main",
@@ -14,18 +14,13 @@
     "postalCode": "123456",
     "addressCountry": "Germany"
   },
-  "telephone": "+49 152 18055291",
-  "website": "https://www.gurpreet-singh.in",
+  "telephone": "+01 (717) 424-3494",
+  "website": "https://https://linktr.ee/lambduhhh",
   "connect": [
     {
       "name": "linkedin",
       "icon": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 448 512\" class=\"w-6 h-6\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z\"></path></svg>",
       "url": "https://linkedin.com/"
-    },
-    {
-      "name": "Mastodon",
-      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-6 h-6\" height=\"1em\" width=\"1em\" fill=\"currentColor\" viewBox=\"0 0 16 16\"><path d=\"M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z\"/></svg>",
-      "url": "https://fosstodon.org/"
     },
     {
       "name": "Github",
