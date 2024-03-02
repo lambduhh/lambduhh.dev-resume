@@ -113,12 +113,6 @@ module.exports = {
                     900: '#fbbde2'
                 },
             },
-            fontFamily: {
-                'beaumont': ['TAN-BEAUMONT', 'serif'],
-                'playfair': ['PlayfairDisplay', 'serif'],
-                'custom-sans': ['system-ui', 'sans-serif'],
-                'mono': ['Jetbrains Mono', 'monospace'],                
-            }
         },
     },
     plugins: [],

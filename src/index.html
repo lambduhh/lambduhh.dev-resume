@@ -1,0 +1,1124 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>~/L. Jordan Miller/resume/ATS/2024-03-01</title>
+    <style>
+        /* cspell:disable-file */
+        /* webkit printing magic: print all background colors */
+        html {
+            -webkit-print-color-adjust: exact;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-print-color-adjust: exact;
+        }
+
+        html,
+        body {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        @media only screen {
+            body {
+                margin: 2em auto;
+                max-width: 900px;
+                color: rgb(55, 53, 47);
+            }
+        }
+
+        body {
+            line-height: 1.5;
+            white-space: pre-wrap;
+            font-family: 'Jetbrains Mono', monospace;
+        }
+
+        a,
+        a.visited {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        .pdf-relative-link-path {
+            font-size: 80%;
+            color: #444;
+        }
+
+        h1,
+        h2 {
+            font-family: "TAN-Beaumont", Georgia;
+            max-font-size: 48px;
+        }
+
+        h3 {
+            letter-spacing: -0.01em;
+            line-height: 1.2;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        .page-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0.75em;
+        }
+
+        h1 {
+            font-size: 1.875rem;
+            margin-top: 1.875rem;
+
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+        .source {
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 1.5em;
+            word-break: break-all;
+        }
+
+        .callout {
+            border-radius: 3px;
+            padding: 1rem;
+        }
+
+        figure {
+            margin: 1.25em 0;
+            page-break-inside: avoid;
+        }
+
+        figcaption {
+            opacity: 0.5;
+            font-size: 85%;
+            margin-top: 0.5em;
+        }
+
+        mark {
+            background-color: transparent;
+        }
+
+        .indented {
+            padding-left: 1.5em;
+        }
+
+        hr {
+            background: transparent;
+            display: block;
+            width: 100%;
+            height: 1px;
+            visibility: visible;
+            border: none;
+            border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        @media only print {
+            img {
+                max-height: 100vh;
+                object-fit: contain;
+            }
+        }
+
+        @page {
+            margin: 1in;
+        }
+
+        .collection-content {
+            font-size: 0.875rem;
+        }
+
+        .column-list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            padding: 0 1em;
+        }
+
+        .column:first-child {
+            padding-left: 0;
+        }
+
+        .column:last-child {
+            padding-right: 0;
+        }
+
+        .table_of_contents-item {
+            display: block;
+            font-size: 0.875rem;
+            line-height: 1.3;
+            padding: 0.125rem;
+        }
+
+        .table_of_contents-indent-1 {
+            margin-left: 1.5rem;
+        }
+
+        .table_of_contents-indent-2 {
+            margin-left: 3rem;
+        }
+
+        .table_of_contents-indent-3 {
+            margin-left: 4.5rem;
+        }
+
+        .table_of_contents-link {
+            text-decoration: none;
+            opacity: 0.7;
+            border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid rgba(55, 53, 47, 0.09);
+            border-collapse: collapse;
+        }
+
+        table {
+            border-left: none;
+            border-right: none;
+        }
+
+        th,
+        td {
+            font-weight: normal;
+            padding: 0.25em 0.5em;
+            line-height: 1.5;
+            min-height: 1.5em;
+            text-align: left;
+        }
+
+        th {
+            color: rgba(55, 53, 47, 0.6);
+        }
+
+        ol,
+        ul {
+            margin: 0;
+            margin-block-start: 0.6em;
+            margin-block-end: 0.6em;
+        }
+
+        li > ol:first-child,
+        li > ul:first-child {
+            margin-block-start: 0.6em;
+        }
+
+        ul > li {
+            list-style: disc;
+        }
+
+        ul.to-do-list {
+            padding-inline-start: 0;
+        }
+
+        ul.to-do-list > li {
+            list-style: none;
+        }
+
+        .to-do-children-checked {
+            text-decoration: line-through;
+            opacity: 0.375;
+        }
+
+        ul.toggle > li {
+            list-style: none;
+        }
+
+        ul {
+            padding-inline-start: 1.7em;
+        }
+
+        ul > li {
+            padding-left: 0.1em;
+        }
+
+        ol {
+            padding-inline-start: 1.6em;
+        }
+
+        ol > li {
+            padding-left: 0.2em;
+        }
+
+        .mono ol {
+            padding-inline-start: 2em;
+        }
+
+        .mono ol > li {
+            text-indent: -0.4em;
+        }
+
+        .toggle {
+            padding-inline-start: 0em;
+            list-style-type: none;
+        }
+
+        /* Indent toggle children */
+        .toggle > li > details {
+            padding-left: 1.7em;
+        }
+
+        .toggle > li > details > summary {
+            margin-left: -1.1em;
+        }
+
+        .selected-value {
+            display: inline-block;
+            padding: 0 0.5em;
+            background: rgba(206, 205, 202, 0.5);
+            border-radius: 3px;
+            margin-right: 0.5em;
+            margin-top: 0.3em;
+            margin-bottom: 0.3em;
+            white-space: nowrap;
+        }
+
+        .collection-title {
+            display: inline-block;
+            margin-right: 1em;
+        }
+
+        .page-description {
+            margin-bottom: 2em;
+        }
+
+        .simple-table {
+            margin-top: 1em;
+            font-size: 0.875rem;
+            empty-cells: show;
+        }
+
+        .simple-table td {
+            height: 29px;
+            min-width: 120px;
+        }
+
+        .simple-table th {
+            height: 29px;
+            min-width: 120px;
+        }
+
+        .simple-table-header-color {
+            background: rgb(247, 246, 243);
+            color: black;
+        }
+
+        .simple-table-header {
+            font-weight: 500;
+        }
+
+        time {
+            opacity: 0.5;
+        }
+
+        .icon {
+            display: inline-block;
+            max-width: 1.2em;
+            max-height: 1.2em;
+            text-decoration: none;
+            vertical-align: text-bottom;
+            margin-right: 0.5em;
+        }
+
+        img.icon {
+            border-radius: 3px;
+        }
+
+        .user-icon {
+            width: 1.5em;
+            height: 1.5em;
+            border-radius: 100%;
+            margin-right: 0.5rem;
+        }
+
+        .user-icon-inner {
+            font-size: 0.8em;
+        }
+
+        .text-icon {
+            border: 1px solid #000;
+            text-align: center;
+        }
+
+        .page-cover-image {
+            display: block;
+            object-fit: cover;
+            width: 100%;
+            max-height: 30vh;
+        }
+
+        .page-header-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .page-header-icon-with-cover {
+            margin-top: -0.72em;
+            margin-left: 0.07em;
+        }
+
+        .page-header-icon img {
+            border-radius: 3px;
+        }
+
+        .link-to-page {
+            margin: 1em 0;
+            padding: 0;
+            border: none;
+            font-weight: 500;
+        }
+
+        p > .user {
+            opacity: 0.5;
+        }
+
+        td > .user,
+        td > time {
+            white-space: nowrap;
+        }
+
+        input[type="checkbox"] {
+            transform: scale(1.5);
+            margin-right: 0.6em;
+            vertical-align: middle;
+        }
+
+        p {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .image {
+            border: none;
+            margin: 1.5em 0;
+            padding: 0;
+            border-radius: 0;
+            text-align: center;
+        }
+
+        .code,
+        code {
+            background: rgba(135, 131, 120, 0.15);
+            border-radius: 3px;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 85%;
+            tab-size: 2;
+        }
+
+        code {
+            color: #eb5757;
+        }
+
+        .code {
+            padding: 1.5em 1em;
+        }
+
+        .code-wrap {
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .code > code {
+            background: none;
+            padding: 0;
+            font-size: 100%;
+            color: inherit;
+        }
+
+        blockquote {
+            font-size: 1.25em;
+            margin: 1em 0;
+            padding-left: 1em;
+            border-left: 3px solid rgb(55, 53, 47);
+        }
+
+        .bookmark {
+            text-decoration: none;
+            max-height: 8em;
+            padding: 0;
+            display: flex;
+            width: 100%;
+            align-items: stretch;
+        }
+
+        .bookmark-title {
+            font-size: 0.85em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 1.75em;
+            white-space: nowrap;
+        }
+
+        .bookmark-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bookmark-info {
+            flex: 4 1 180px;
+            padding: 12px 14px 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .bookmark-image {
+            width: 33%;
+            flex: 1 1 180px;
+            display: block;
+            position: relative;
+            object-fit: cover;
+            border-radius: 1px;
+        }
+
+        .bookmark-description {
+            color: rgba(55, 53, 47, 0.6);
+            font-size: 0.75em;
+            overflow: hidden;
+            max-height: 4.5em;
+            word-break: break-word;
+        }
+
+        .bookmark-href {
+            font-size: 0.75em;
+            margin-top: 0.25em;
+        }
+
+        .sans {
+            font-family: sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .code {
+            font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace;
+        }
+
+        .serif {
+            font-family: TAN-Beaumont, TAN-BEAUMONT, serif Georgia, ui-serif, serif;
+        }
+
+        .mono {
+            font-family: "JetBrains Mono", Nitti, Menlo, Courier, monospace;
+        }
+
+        .highlight-default {
+            color: #fdd887;
+        }
+
+        .highlight-gray {
+            color: rgba(120, 119, 116, 1);
+            fill: rgba(120, 119, 116, 1);
+        }
+
+        .highlight-brown {
+            color: rgba(159, 107, 83, 1);
+            fill: rgba(159, 107, 83, 1);
+        }
+
+        .highlight-orange {
+            color: rgba(217, 115, 13, 1);
+            fill: rgba(217, 115, 13, 1);
+        }
+
+        .highlight-yellow {
+            color: rgba(203, 145, 47, 1);
+            fill: rgba(203, 145, 47, 1);
+        }
+
+        .highlight-teal {
+            color: rgba(68, 131, 97, 1);
+            fill: rgba(68, 131, 97, 1);
+        }
+
+        .highlight-blue {
+            color: rgba(51, 126, 169, 1);
+            fill: rgba(51, 126, 169, 1);
+        }
+
+        .highlight-purple {
+            color: rgba(144, 101, 176, 1);
+            fill: rgba(144, 101, 176, 1);
+        }
+
+        .highlight-pink {
+            color: rgba(193, 76, 138, 1);
+            fill: rgba(193, 76, 138, 1);
+        }
+
+        .highlight-red {
+            color: rgba(212, 76, 71, 1);
+            fill: rgba(212, 76, 71, 1);
+        }
+
+        .highlight-gray_background {
+            background: rgba(241, 241, 239, 1);
+        }
+
+        .highlight-brown_background {
+            background: rgba(244, 238, 238, 1);
+        }
+
+        .highlight-orange_background {
+            background: rgba(251, 236, 221, 1);
+        }
+
+        .highlight-yellow_background {
+            background: rgba(251, 243, 219, 1);
+        }
+
+        .highlight-teal_background {
+            background: rgba(237, 243, 236, 1);
+        }
+
+        .highlight-blue_background {
+            background: #0289d5;
+        }
+
+        .highlight-purple_background {
+            background: rgba(244, 240, 247, 0.8);
+        }
+
+        .highlight-pink_background {
+            background: rgba(249, 238, 243, 0.8);
+        }
+
+        .highlight-red_background {
+            background: rgba(253, 235, 236, 1);
+        }
+
+        .block-color-default {
+            color: inherit;
+            fill: inherit;
+        }
+
+        .block-color-gray {
+            color: rgba(120, 119, 116, 1);
+            fill: rgba(120, 119, 116, 1);
+        }
+
+        .block-color-brown {
+            color: rgba(159, 107, 83, 1);
+            fill: rgba(159, 107, 83, 1);
+        }
+
+        .block-color-orange {
+            color: rgba(217, 115, 13, 1);
+            fill: rgba(217, 115, 13, 1);
+        }
+
+        .block-color-yellow {
+            color: rgba(203, 145, 47, 1);
+            fill: rgba(203, 145, 47, 1);
+        }
+
+        .block-color-teal {
+            color: rgba(68, 131, 97, 1);
+            fill: rgba(68, 131, 97, 1);
+        }
+
+        .block-color-blue {
+            color: rgba(51, 126, 169, 1);
+            fill: rgba(51, 126, 169, 1);
+        }
+
+        .block-color-purple {
+            color: rgba(144, 101, 176, 1);
+            fill: rgba(144, 101, 176, 1);
+        }
+
+        .block-color-pink {
+            color: rgba(193, 76, 138, 1);
+            fill: rgba(193, 76, 138, 1);
+        }
+
+        .block-color-red {
+            color: rgba(212, 76, 71, 1);
+            fill: rgba(212, 76, 71, 1);
+        }
+
+        .block-color-gray_background {
+            background: rgba(241, 241, 239, 1);
+        }
+
+        .block-color-brown_background {
+            background: rgba(244, 238, 238, 1);
+        }
+
+        .block-color-orange_background {
+            background: rgba(251, 236, 221, 1);
+        }
+
+        .block-color-yellow_background {
+            background: rgba(251, 243, 219, 1);
+        }
+
+        .block-color-teal_background {
+            background: rgba(237, 243, 236, 1);
+        }
+
+        .block-color-blue_background {
+            background: rgba(231, 243, 248, 1);
+        }
+
+        .block-color-purple_background {
+            background: rgba(244, 240, 247, 0.8);
+        }
+
+        .block-color-pink_background {
+            background: rgba(249, 238, 243, 0.8);
+        }
+
+        .block-color-red_background {
+            background: rgba(253, 235, 236, 1);
+        }
+
+
+        .checkbox {
+            display: inline-flex;
+            vertical-align: text-bottom;
+            width: 16;
+            height: 16;
+            background-size: 16px;
+            margin-left: 2px;
+            margin-right: 5px;
+        }
+
+        .checkbox-on {
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+        }
+
+        .checkbox-off {
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+        }
+
+    </style>
+</head>
+<body>
+<article id="69d44127-755e-44d2-99b2-7569ebb8de93" class="page serif">
+    <header>
+        <div class="page-header-icon undefined"><span class="icon">💫</span></div>
+        <h1 class="page-title">~/L. Jordan Miller/resume/2024-03-01</h1>
+        <p class="page-description"></p>
+        <table class="properties">
+            <tbody></tbody>
+        </table>
+    </header>
+    <div class="page-body"><h2 id="f7f8b09a-d6cf-4873-9663-fdc77b060734" class="block-color-blue_background"><strong>Personal
+        Info:</strong></h2>
+        <p id="9e4d526e-2e2c-4738-bdbd-35c5dde34b62" class=""><strong>Name: L. Jordan Miller</strong></p>
+        <p id="16d59252-926f-4f5a-979d-040bbb09bc0f" class=""><strong>Location:</strong> St. Pete, FL (GMT -5:00)</p>
+        <p id="67cf2c26-98ec-4399-ba3c-c182bf67f7e5" class="">💜 <strong>Portfolio:</strong> <a
+                href="http://linktr.ee/lambduhhh">linktr.ee/lambduhhh</a></p>
+        <p id="8972c414-d174-4f8c-9569-653e335b3dfc" class=""><strong>🛄 LinkedIn</strong>: <a
+                href="http://linkedin.com/in/lambduhhh/">linkedin.com/in/lambduhh</a></p>
+        <p id="06f97bae-9745-4710-b776-572f82ed2665" class=""><strong>📧 Email</strong>: <a
+                href="mailto:lorilynjmiller@gmail.com">lorilynjmiller@gmail.com</a>, <a
+                href="mailto:jordan@spinscriptsynergies.com">jordan@spinscriptsynergies.com</a></p>
+        <p id="32671efa-d53b-43d2-acda-eda5944cb32a" class=""><strong>🗓️Booking Link</strong>: <a
+                href="https://usemotion.com/meet/jordan-miller-sbbr/meeting?d=30">https://usemotion.com/meet/jordan-miller-sbbr/meeting?d=30</a>
+        </p>
+        <h2 id="e0d9cb12-f179-47b4-8907-beedb964d6af" class="block-color-purple_background"><strong>👩🏻‍💻 Professional
+            Summary:</strong></h2>
+        <figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex"
+                id="3de49a0d-431e-43fc-be70-4c11686d1202">
+            <div style="font-size:1.5em"><span class="icon">💫</span></div>
+            <div style="width:100%">Dynamic and results-oriented professional with a profound commitment to <strong>authenticity</strong>,
+                an insatiable <strong>curiosity</strong> for innovation, and <strong>exceptional communication </strong>skills.
+                With extensive experience in Clojure and Clojurescript Software Engineering, I excel at fostering
+                meaningful connections, driving team success, and navigating complex challenges with a creative and
+                analytical approach. My proactive learning mindset and passion for continuous improvement have propelled
+                organizational growth and enhanced operational efficiency. Eager to leverage my unique perspective,
+                professional expertise and values to contribute to a company’s success, I am dedicated to creating
+                lasting, positive change through collaborative problem-solving and transparent leadership.
+            </div>
+        </figure>
+        <h2 id="3ab902fc-7cb9-4fd9-9545-34c9c999601d" class="block-color-pink_background">⚙️  Skills//Tooling</h2>
+        <p id="7176c205-f780-41b2-8aca-fc4d9325b659" class=""><strong>Platforms</strong>: MacM1, Linux(Ubuntu)</p>
+        <p id="8ac61fb5-f73c-4265-bdd5-4e4f24cf2c80" class=""><strong>Programming Languages: </strong>Clojure,
+            ClojureScript, Javascript, Bash, Python, Objective C, Java</p>
+        <p id="14bd3e28-6048-4a28-8b5c-f9317c58ed5d" class=""><strong>Editors: </strong>Emacs, IntelliJ (Cursive),
+            Visual Studio Code (VSCode), Pycharm, Xcode</p>
+        <p id="bdf0f14e-6a45-478c-bc8c-3888bdd4fc37" class=""><strong>Artificial Intelligence and Machine
+            Learning:</strong> Proficient in leveraging and integrating LLMs (e.g., GPT-4) for natural language
+            processing, content generation, and data analysis.</p>
+        <p id="5ce61f0e-5082-4e48-9135-b1d212b4bcdd" class=""><strong>Blockchain Technologies: </strong>Blockchain,
+            Hyperledgr, SMTs</p>
+        <p id="4b989bf6-d0aa-4eb4-8adc-7766564057c4" class=""><strong>Libraries and Frameworks:</strong> 11ty, React,
+            React Native, reagent, re-frame, Bootstrap, Material UI, Storybook, core.async</p>
+        <p id="dc1a9a17-dcac-43b6-bd58-2ddfc4e26d20" class=""><strong>Web Development and Live Streaming: </strong>WebRTC
+            for real-time communication</p>
+        <p id="d79a638a-83c5-4c1d-b02b-76a6cf874ec3" class=""><strong>Containerization and Cloud Services: </strong>Docker,
+            AWS (including Amplify, AppSync, CloudFormation)</p>
+        <p id="0ee13a11-06d2-496f-bc0e-88185b7a21cc" class=""><strong>Continuous Integration and Version
+            Control: </strong>Testflight, CircleCI, GitHub , svn, GitLabCI</p>
+        <p id="422046fc-eace-47b3-85e1-4b34bdf4f2b4" class=""><strong>Embedded Systems Development: </strong>NRF
+            MicroController Boards, Serialtools, JLink, SEGGER</p>
+        <p id="8f0053a2-080b-4741-b039-925d4565e482" class=""><strong>Databases: </strong>Relational: PostgreSQL, SQL
+            NoSQL: DynamoDB Specialized: Datomic (with Datalog for querying)</p>
+        <p id="bcd69d12-5a17-40d3-acc2-33d223bfa192" class=""><strong>Integrations: </strong>PayPal, Venmo, Make,
+            Shortcuts, Zapier, Zigbee, Nautomate</p>
+        <p id="3a31850f-6a51-4d84-ae2f-f3da7c8131ed" class=""><strong>Project Management: </strong>Agile, Scrum, Kanban.
+        </p>
+        <p id="87c468d1-33c1-4390-b49e-36c8511f88b5" class=""><strong>Communication Platforms: </strong>Google
+            Workspace, Discord, Slack, Zulip, Jira, Github Projects, Notion, Monday, Asana, Clickup, UseMotionAI,
+            Vistaly</p>
+        <p id="c64a1ca2-9c7b-4a23-a71f-ada541039657" class=""><strong>Design and Prototyping: </strong>Figma,
+            Lucidchart, <a href="http://proto.io/">Proto.io</a>, Balsamic</p>
+        <p id="b1aa75a7-af30-4adf-afa9-2aa8cbadd4d3" class=""><strong>Documentation and Collaboration: </strong>Notion,
+            Backstage, Github Pages, Google Docs, Google Sheets </p>
+        <p id="ab06b71b-59f3-46a0-9dec-fd4f978145d7" class=""><strong>Creative Content Production: i</strong>Movie,
+            Procreate, Whimsical, Canva, Descript, Zencaster, GarageBand, Audacity</p>
+        <p id="327168fe-ed6b-46fc-97e3-62c8bf585715" class=""><strong>Content Production and Editing: </strong>OBS (Open
+            Broadcaster Software), Ableton Live, Loopback, <a href="http://riverside.fm/">Riverside.fm</a>, Capcut, </p>
+        <h2 id="fba06043-8585-4738-931f-5383a32d0767" class="block-color-blue_background"><strong>💼 Work
+            Experience:</strong></h2>
+        <h3 id="2293a238-5e0d-4db3-ac3e-52ffa47b01e0" class=""><strong>Full Stack Developer at </strong><strong><a
+                href="http://Vouch.io">Vouch.io</a></strong><strong> - Atlanta, GA (remote) </strong></h3>
+        <ul id="612fd2e6-5aa4-4ae2-912a-edd099fb6701" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Dates:</strong> January 2022 - September 2023</li>
+        </ul>
+        <ul id="7db48184-f5bb-414e-bb24-c0c5aec0b4e7" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Key Responsibilities:</strong> Focused on developing native mobile
+                applications integrating with custom hardware and firmware using ClojureScript and Krell REPL. Acted as
+                liaison between product, software engineers, solutions architects, and firmware engineers.
+            </li>
+        </ul>
+        <ul id="504f5e4b-7c6e-4026-9343-1aa6bc0aa5ba" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Achievements:</strong> Developed &quot;Vouch Passwordless,&quot;
+                leveraging a mobile device&#x27;s Secure Enclave to allow users to unlock websites on desktops via QR
+                code scanning and biometric inputs. <a
+                        href="https://www.notion.so/L-Jordan-Miller-resume-ATS-2024-03-01-69d44127755e44d299b27569ebb8de93?pvs=21">Founded
+                    and led Developer Relations initiative</a>. Worked directly with ClojureScript compiler maintainers
+                David Nolen and Mike Fikes.
+            </li>
+        </ul>
+        <ul id="bc13cc2f-1f45-49f3-a2ca-3cbf2f2e4a3c" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Technologies Used:</strong> Clojure, ClojureScript,
+                (intellij/cursive) Java, Docker, Objective-C (Xcode),JavaScript (VSCode), Storybook, React Native,
+                Blockchain, Hyperledger, Figma, Lucidchart, Notion, Monday, Github Issues, core.async, Zephyr, OpenAM,
+                Datomic, datalog, CircleCI, .yaml, github, git, babashka, bash, Nordic semiconductor development boards
+            </li>
+        </ul>
+        <h3 id="7b17681d-1847-478e-ada5-5910d4df584a" class=""><strong>Software Engineer at Omnypay - </strong>San
+            Francisco, CA (Remote)</h3>
+        <ul id="e57b7b6c-f21e-4938-8d4e-14fefab1cb72" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Dates:</strong> January 2021 - December 2021</li>
+        </ul>
+        <ul id="72337138-c960-433d-bbb3-6628814ce514" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Key Responsibilities:</strong> Developed &quot;VISX,&quot; a Live
+                Streaming Commerce Platform for Brick-and-Mortar Retailers. Worked with veteran backend-oriented Clojure
+                team (former Runa/Staples Lab) to covid pivot and develop a sophisticated UI-centric web application.
+            </li>
+        </ul>
+        <ul id="4fdcd9c1-a585-4454-8626-0ac9010606b5" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Achievements:</strong> Mastered reactive UI web design with
+                ClojureScript + React Bootstrap as sole front-end engineer. AWS Amplify and AppSync for backend
+                development, implemented WebRTC for live streaming, developed live chat features, payments integration
+                (paypal, venmo) and adopted Shadow CLJS.
+            </li>
+        </ul>
+        <ul id="019462d6-4b0f-4a66-9dd0-c33d815d2ba0" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Technologies Used:</strong> Clojure, ClojureScript, Hiccup (HTML,
+                SCSS, CSS), React Bootstrap, AWS, AWS Amplify, AWS AppSync, WebRTC, React Bootstrap, Shadow CLJS,
+                GraalVM, Reagent, Hiccup, Emacs, Cider, Paypal, Venmo, Asana, clj-kando,
+            </li>
+        </ul>
+        <h3 id="4e373987-5cb5-4ff8-a25e-4d55ee72e670" class=""><strong>Software Engineer at ArcheMedx - </strong>Charlottesville,
+            VA (on-site → remote) </h3>
+        <ul id="092df33c-1a7b-4129-9a95-f7f8ccae39a3" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Dates:</strong> January 2020 - September 2020</li>
+        </ul>
+        <ul id="adc198e0-e9f4-4117-a8a0-a787f51ced0c" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Key Responsibilities:</strong> Contributed to the development of an
+                advanced learning platform tailored for the medical community. Collaborated closely with a small, agile
+                team to address high-priority bugs and implement major features.
+            </li>
+        </ul>
+        <ul id="94962e50-98ab-435c-8e99-6ec92b5e7076" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Achievements:</strong> Worked directly with QA to successfully
+                resolve 70+ bugs, prioritizing critical issues. Played a direct role in the successful launch of
+                multiple major platform features.
+            </li>
+        </ul>
+        <ul id="7c6e4a93-9af7-4422-b5cd-c73e2156e081" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Technologies Used:</strong> Clojure, Clojurescript, re-frame,
+                reagent, react, hiccup, html, css, datomic, datalog, dynamoDB, AWS Cloudflare, Agile methodologies,
+                Github Issues, Jira, Balsamic, clojure.test, clojure.schema, malli
+            </li>
+        </ul>
+        <h3 id="437674a8-4bc4-445d-9eec-e932cc64d66c" class=""><strong>💫 Entrepreneur: Technical and Creative Content
+            Director at </strong><a href="http://spinscriptsynergies.com"><strong>Spinscript Synergies
+            LLC</strong></a><strong>, Lost in Lambduhhhs</strong></h3>
+        <ul id="8945822d-9d00-4a09-b9d7-e03afaef8f9c" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Dates:</strong> January 2018 - Present</li>
+        </ul>
+        <ul id="b3376455-9862-4592-bf0a-e78247df9097" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Key Responsibilities:</strong> Founded Spinscript Synergies LLC
+                offering creative digital media solutions, web design, business strategy, administrative operations
+                management and technical creative consulting. Roles include: multimedia executive producer, event
+                organizer, cirque artistic director, aerial rigger and podcast producer and host.
+            </li>
+        </ul>
+        <ul id="6ca4edba-bafb-4ccf-b4a6-75427c8b2738" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Technologies Used:</strong> Vistaly, Motion, Notion, OBS, Abelton
+                Live, Loopback, Riverside.fm, Canva, Google Workspace Admin, iMovie, vrigger, chatgpt,
+            </li>
+        </ul>
+        <h3 id="6acd7e18-6c91-4704-b945-0dc97a032b27" class=""><strong>Web Designer (Freelance), York, PA</strong></h3>
+        <ul id="e9d6a1e6-3c36-4cc3-aa2d-cb8f489958a3" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Dates:</strong> March 2017 - Present</li>
+        </ul>
+        <ul id="9fe9bd14-4f8c-475b-a6e3-491a99cd459f" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Key Responsibilities:</strong> Designed and maintained websites for
+                local businesses, translating ideas into code and crafting promotional content.
+            </li>
+        </ul>
+        <ul id="1d1a89e2-2243-4bde-b24b-3675d5ec628a" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Achievements:</strong> Maintained long-term contracts with
+                businesses (7 years), achieving over 300k page views for www.mexitaly.com since 2017.
+            </li>
+        </ul>
+        <ul id="5ba8ef43-090b-474f-a0c4-a398fca3ef6d" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Technologies Used:</strong> WordPress, HTML, CSS, Canva, Netlify,
+                Amazon S3, w3schools
+            </li>
+        </ul>
+        <h3 id="e784e671-ec9c-4294-a7f4-abc9d67c7914" class=""><strong>Software Internship at Synchronicity, York,
+            PA</strong></h3>
+        <ul id="2d7e2580-0f62-4e9a-abd1-11bdc1c95993" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Dates:</strong> June 2016 - January 2019</li>
+        </ul>
+        <ul id="d9646632-d7ac-4ff4-a25b-94686821e6e1" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Key Responsibilities:</strong> Unified .clj concepts into
+                performant Python code, contributed to medical management software, and engaged in functional vs.
+                procedural development training.
+            </li>
+        </ul>
+        <ul id="36a3d1cb-4234-4be8-bc81-58b368297797" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Technologies Used:</strong> Clojure, Python, Bash, Scheme, Racket,
+                Linux
+            </li>
+        </ul>
+        <h2 id="19ffaa54-af21-494d-8fa3-a65f20aa2fa7" class="block-color-pink_background"><strong>✨ Open Source,
+            Extracurricular, Volunteer Projects</strong></h2>
+        <h3 id="90da5779-305f-4b63-879f-f79fa3c9fb6d" class=""><a href="https://clojure.camp"><strong>Clojure
+            Camp</strong></a></h3>
+        <ul id="673ef3a3-f457-449b-b0ca-5d3d5fbbe32e" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Description:</strong> Established as a non profit mentorship
+                community we provide pedagogical infrastructure aimed at fostering a love for programming through
+                Clojure. Active participation in governance, operational and study group meetings since 2020.
+            </li>
+        </ul>
+        <ul id="7dba60db-165d-41a4-954c-c39205a428ac" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Skills Used: </strong>Pedagogy, mentorship, community building,
+                teaching, video editing, documentation, project management
+            </li>
+        </ul>
+        <ul id="7686a624-e5f1-4714-afe6-f047a4a59a4c" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Contributions:</strong> Weekly book club (<a
+                    href="http://teachtogether.tech/en/index.html">Teaching Tech Together</a>) , regular governance and
+                operational meetings, 1:1 mentorship with students, contributed to the community&#x27;s growth and
+                development.
+            </li>
+        </ul>
+        <h3 id="d6414eb5-df00-4957-8e4c-4a2d98274b62" class=""><a href="https://tr.ee/tpWDt0KabQ"><strong>Lost in
+            Lambduhhs Podcast</strong></a></h3>
+        <ul id="ddea640c-2304-48f2-8f04-286c4b4d1be5" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Description:</strong> Self-produced tech podcast designed to
+                humanize open source developers and maintainers by showcasing personal conversations.
+            </li>
+        </ul>
+        <ul id="0550e9f4-7ecc-4ea7-9163-5f712b467efa" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Skills Used:</strong> Podcast production, interviewing, content
+                creation, networking
+            </li>
+        </ul>
+        <ul id="52289419-9d38-45ce-9d20-399b84e3fc78" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Contribution:</strong> Conducted interviews with open source
+                developers, produced and hosted episodes, aimed to foster connection within programming communities.
+            </li>
+        </ul>
+        <h3 id="f86707ce-71bd-4776-9ac2-4f80c7f86268" class=""><a
+                href="https://www.youtube.com/user/millerlight2777"><strong>YouTube Content Producer</strong></a></h3>
+        <ul id="bf154750-0c70-488e-82db-ec652d6f7758" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Description:</strong> Produced technical &quot;edutainment&quot;
+                videos explaining fundamental programming concepts and stories related to Clojure and ClojureScript.
+            </li>
+        </ul>
+        <ul id="215dc955-f9b1-4eb8-8036-ba50e9850017" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Skills Used:</strong> Video production, content creation,
+                storytelling.
+            </li>
+        </ul>
+        <ul id="6362001e-4c67-43d5-ad92-2d375a0c0197" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Contribution:</strong> Created and published educational content on
+                YouTube, garnering 5k views, aimed at making programming concepts more accessible and engaging.
+            </li>
+        </ul>
+        <h3 id="845e5381-bd51-4441-9d5f-0482550dbf01" class=""><a
+                href="https://www.youtube.com/playlist?list=PLtw0bWXdq7pMFpkwBTqJ7Y5d8E2yg-zq-"><strong>Re:Clojure
+            Conference (2021-2022)</strong></a></h3>
+        <ul id="e6d4c735-26da-4be8-a06b-e8ffc59a6861" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Description:</strong> Co-hosted and organized a two-day free
+                virtual conference featuring speakers from around the world. Introduced speakers, led Q&amp;A sessions,
+                featured keynote speakers including Gerald and Julie Sussman and Steven Wolfram.
+            </li>
+        </ul>
+        <ul id="60489705-2341-4026-8b14-84b329949e64" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Skills Used:</strong> Event organization, public speaking,
+                community engagement.
+            </li>
+        </ul>
+        <ul id="d5f4868a-b633-4597-b4c6-eaefbd9eb03c" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Contribution:</strong> Coordinated and managed the conference
+                logistics, facilitated speaker sessions, and ensured the smooth execution of the event.
+            </li>
+        </ul>
+        <h3 id="58c2a966-63fd-4cc4-b1f1-46ba37fbc60f" class=""><a
+                href="https://www.thestrangeloop.com/index.html"><strong>Strangeloop Conference Review Board
+            (2020-2023)</strong></a></h3>
+        <ul id="b96f9a0d-6f17-428f-a89c-8a47665de3ab" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Description:</strong> Reviewed over 400 anonymized conference
+                abstracts and CfPs, participated in workshops, and assisted in leading social activities.
+            </li>
+        </ul>
+        <ul id="fd110294-c8d4-4471-99d8-4475b3da533e" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Skills Used:</strong> Critical analysis, event planning,
+                collaboration.
+            </li>
+        </ul>
+        <ul id="3a4561f5-6713-40ac-84b5-fc32f354e14a" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Contribution:</strong> Evaluated conference submissions, provided
+                feedback to presenters, and contributed to the overall success of the conference.
+            </li>
+        </ul>
+        <h3 id="ccac52db-e323-4621-b801-d7d150bcdb24" class=""><a href="https://emergentworks.org"><strong>Emergent
+            Works (Mentor) - Winter 2021</strong></a></h3>
+        <ul id="eee2d5a4-5cd2-41ec-998a-a67c36d11cba" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Description:</strong> Mentored individuals impacted by the justice
+                system, teaching tech literacy and upskilling.
+            </li>
+        </ul>
+        <ul id="c5b886c4-6e76-4979-9d3a-f6acdc150bec" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Skills Used:</strong> Mentorship, teaching, community support.</li>
+        </ul>
+        <ul id="30d602ea-4534-40c2-9178-d7101460c10a" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Contribution:</strong> Provided guidance and support to individuals
+                seeking to improve their technical skills and opportunities.
+            </li>
+        </ul>
+        <h3 id="5cbfca1c-20c9-43de-bf77-6e1dc2086f08" class=""><a href="https://twitter.com/lambduhh">Tech Memes on
+            Twitter</a></h3>
+        <ul id="190abf69-bf8d-44f2-87a2-8c99e5a30511" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Description:</strong> Created and shared Clojure-related memes on
+                Twitter.
+            </li>
+        </ul>
+        <ul id="ab9e0171-6d72-487d-985c-0f681c0ac676" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Skills Used:</strong> Social media management, content curation,
+            </li>
+        </ul>
+        <ul id="d9e9ec19-e38b-4ba9-b627-ee22af465972" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Contribution:</strong> Build community by providing humorous and
+                relatable content on Twitter, fostering engagement and camaraderie.
+            </li>
+        </ul>
+        <p id="b91e3e1b-2227-4a24-a28a-c2da5e819936" class="">
+        </p>
+        <p id="b7f50ccc-7b31-4242-9469-ae27fc3f7c53" class="block-color-default"><strong> Technical Writing /
+            Elucidation / Vulgarisation</strong></p>
+        <ul id="dc8827f0-8e9f-4ea3-a2ec-47db2a13ae6f" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Description:</strong> Authored technical content including
+                co-authoring Pragmatic Programming book titled “<a
+                        href="https://www.oreilly.com/publisher/pragmatic-bookshelf/?page=3&amp;sort=publication_date">Clojure
+                    Brain Teasers”</a> with Alex Miller, <a href="https://medium.com/@jordan_62551">blogging on
+                    Medium</a> and for Vouch, and explaining functional concepts in Python.
+            </li>
+        </ul>
+        <ul id="9ee063bc-aa4b-4475-82d6-14631cafacc9" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Skills Used:</strong> Technical writing, communication, content
+                creation
+            </li>
+        </ul>
+        <h2 id="1becac43-f191-4161-8784-b58cac541926" class="block-color-purple_background"><strong>🗣️ Stories &amp;
+            Workshops; </strong></h2>
+        <ul id="ecf4ad0b-9dfb-43b9-890e-b2757f7b33e6" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Lambda Days - Kraków, Poland, June 1, 2023</strong>: Facilitated
+                workshop titled <em>&quot;How to Find the Write Rhythm for Software Composition.&quot; </em><a
+                        href="https://youtu.be/-ZREOpAvfwI?si=Lh1oB15iNiR9vShl">Watch here</a>.
+            </li>
+        </ul>
+        <ul id="6aa2650f-b1db-40a5-96e7-23f8aaaac0c9" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Clojure Conj - Durham, NC, May 13, 2023</strong>: Co-speaker
+                Heather Haylett <em>&quot;How to Find the Write Rhythm for Software Composition&quot;</em> <a
+                        href="https://youtu.be/_beZ07o91rg?si=nsF5PaK-g07PDnnx">Watch here</a>.
+            </li>
+        </ul>
+        <ul id="74a52310-e83f-4557-a1ac-708c5c211578" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Dutch Clojure Days - Amsterdam, Netherlands, October 1,
+                2022</strong>: Gave a talk + workshop titled &quot;<em>Got A Guru?</em>&quot; Note: This session was not
+                officially recorded; a private link is available for limited viewing. <a
+                        href="https://youtu.be/qspc9oqByO4">Watch here</a>.
+            </li>
+        </ul>
+        <ul id="d3529683-af7d-4121-a1d0-1a4bc1d34ace" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>ClojureD - Berlin, June 1, 2021</strong>: Presented <em>&quot;From
+                Sussman to Production.&quot; </em><em><a href="https://youtu.be/3dYyq4TPFQY?si=lqAodLRgaTywd2a6">Watch
+                here</a></em><em>.</em></li>
+        </ul>
+        <ul id="2130e4e9-f7b2-49db-98c4-e79df093dd82" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Data Days DC, October 1, 2020</strong>: Delivered a talk on <em>&quot;The
+                Science of Second Chances.&quot; </em><em><a
+                    href="https://www.youtube.com/watch?v=tnEZRBDLTr0&amp;t=29s">Watch here</a></em><em>.</em></li>
+        </ul>
+        <h2 id="df3ce3b1-f316-4348-8945-81b0a1b46afc" class="block-color-gray_background"><strong>🍎 Education and
+            Training:</strong></h2>
+        <ul id="a9e2444f-ec9a-4539-8b76-0cae6bfba999" class="bulleted-list">
+            <li style="list-style-type:disc"><strong><a
+                    href="http://DeepLearning.AI">DeepLearning.AI</a></strong><strong> (Coursera)</strong> - <em>Finetuning
+                Large Language Models, ChatGPT Prompt Engineering for Developers, Building systems with ChatGPT API</em>
+            </li>
+        </ul>
+        <ul id="5b338225-df8a-43f3-9f85-577b3850ce62" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Massachusetts Institute of Technology (MIT)</strong> Cambridge, MA
+                - <em><a href="https://ocw.mit.edu">MIT Free Courseware </a></em></li>
+        </ul>
+        <ul id="aa66392b-eb12-4fe0-a171-54d61e9252ca" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>University of Michigan (Coursera) - </strong><em>Python for
+                Everyone, Applied Python Data Structures, Python for Databases</em></li>
+        </ul>
+        <ul id="42ff0078-11a7-463c-9cf8-e8ad19a443a8" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Strangeloop Conference / Chelsea Troy</strong> - <em>“Tackling Tech
+                Debt”</em></li>
+        </ul>
+        <ul id="4d4ce659-61c7-4331-aa79-ff1e2ad63ec7" class="bulleted-list">
+            <li style="list-style-type:disc">Strangeloop Conference / <em>Code Reading Club</em></li>
+        </ul>
+        <ul id="9574d511-84bc-47f2-94b5-8bba59c7af1a" class="bulleted-list">
+            <li style="list-style-type:disc"><strong>Front End Masters / Marcy Sutton - </strong><em>Accessibility in
+                JavaScript Applications</em></li>
+        </ul>
+        <p id="630130e0-e5de-490c-9dfa-23cb3a1c37cb" class="">
+        </p>
+        <p id="dcfb646b-54da-42b9-bc1d-d370460d9976" class="">
+        </p></div>
+</article>
+<span class="sans" style="font-size:14px;padding-top:2em"></span></body>
+</html>

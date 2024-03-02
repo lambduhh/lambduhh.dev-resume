@@ -35,21 +35,9 @@
 /* Webfont: TANBEAUMONT-DISPLAY */
 @font-face {
   font-family: 'TAN-BEAUMONT';
-  src: url('/src/assets/fonts/TAN - BEAUMONT.woff2') format('woff2'), /* Modern Browsers */
-  url('/src/assets/fonts/TAN - BEAUMONT.otf') format('opentype'); /* Safari, Android, iOS */
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
+  src: url('src/assets/fonts/TAN - BEAUMONT.woff2 copy') format('woff2'),
 }
-
-body {
-  font-family: 'mono', monospace;
-}
-
-.h1 {
-  font-family: 'TAN-BEAUMONT', serif;
-}
-
-.mono-font {
-  font-family: 'mono', monospace;
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('src/assets/fonts/PlayfairDisplay-Italic-VariableFont_wght copy.ttf') format('truetype'),
 }
