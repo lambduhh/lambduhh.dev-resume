@@ -1,0 +1,9 @@
+/* Webfont: TANAFTERHOURS-DISPLAY */@font-face {
+    font-family: 'TAN-AFTERHOURS';
+    src: url('TAN-AFTERHOURS.woff2') format('woff2'), /* Modern Browsers */
+         url('TAN-AFTERHOURS.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

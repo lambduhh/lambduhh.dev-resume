@@ -1,0 +1,9 @@
+/* Webfont: TANBEAUMONT-DISPLAY */@font-face {
+    font-family: 'TAN-BEAUMONT';
+    src: url('TAN - BEAUMONT.woff2') format('woff2'), /* Modern Browsers */
+         url('TAN - BEAUMONT.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

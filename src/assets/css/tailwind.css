@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 .link {
-  @apply text-husky-800 hover:text-husky-500 dark:text-husky-300 dark:hover:text-husky-400 underline;
+  @apply text-purple1 hover:text-purple1-500 dark:text-purple1 dark:hover:text-purple1-400 underline;
 }
 
 .highlight {
-  @apply bg-husky-100 dark:bg-husky-900;
+  @apply bg-purple1-100 dark:bg-purple1-900;
 }
 
 .with-border {
-  @apply border border-husky-400 dark:border-husky-600;
+  @apply border border-purple1-400 dark:border-purple1-600;
 }
 
 .work-entry.current .dot {
-  @apply bg-husky-800 dark:bg-husky-800;
+  @apply bg-purple1-800 dark:bg-purple1-800;
 }
 
 .work-entry:nth-child(odd) {
@@ -28,4 +28,28 @@
 
 .work-entry:nth-child(odd) .dot-bg {
   @apply left-0 -translate-x-2/4;
+}
+
+/* Custom Font Families */
+
+/* Webfont: TANBEAUMONT-DISPLAY */
+@font-face {
+  font-family: 'TAN-BEAUMONT';
+  src: url('/src/assets/fonts/TAN - BEAUMONT.woff2') format('woff2'), /* Modern Browsers */
+  url('/src/assets/fonts/TAN - BEAUMONT.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: 'mono', monospace;
+}
+
+.h1 {
+  font-family: 'TAN-BEAUMONT', serif;
+}
+
+.mono-font {
+  font-family: 'mono', monospace;
 }

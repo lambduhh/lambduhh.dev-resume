@@ -16,7 +16,7 @@ module.exports = {
                     800: '#ffffff',
                     900: '#ffffff'
                 },
-                'jasmine': {
+                'star': {
                     DEFAULT: '#FDD887',
                     100: '#4c3501',
                     200: '#996902',
@@ -28,7 +28,7 @@ module.exports = {
                     800: '#feefcf',
                     900: '#fff7e7'
                 },
-                'persian_pink': {
+                'pink': {
                     DEFAULT: '#E380B1',
                     100: '#3b0d24',
                     200: '#751a47',
@@ -40,7 +40,7 @@ module.exports = {
                     800: '#f4cde0',
                     900: '#f9e6f0'
                 },
-                'tufts_blue': {
+                'blue1': {
                     DEFAULT: '#0289D5',
                     100: '#001b2a',
                     200: '#013655',
@@ -52,7 +52,7 @@ module.exports = {
                     800: '#8ad3fe',
                     900: '#c4e9fe'
                 },
-                'royal_purple': {
+                'purple1': {
                     DEFAULT: '#8758B8',
                     100: '#1b1026',
                     200: '#35204c',
@@ -64,7 +64,7 @@ module.exports = {
                     800: '#cebce2',
                     900: '#e7ddf1'
                 },
-                'tekhelet': {
+                'purple2': {
                     DEFAULT: '#3F2672',
                     100: '#0d0817',
                     200: '#1a0f2e',
@@ -76,7 +76,7 @@ module.exports = {
                     800: '#ac94db',
                     900: '#d5c9ed'
                 },
-                'navy_blue': {
+                'blue2': {
                     DEFAULT: '#010B7D',
                     100: '#000219',
                     200: '#010532',
@@ -88,7 +88,7 @@ module.exports = {
                     800: '#6874fd',
                     900: '#b3bafe'
                 },
-                'federal_blue': {
+                'indigo': {
                     DEFAULT: '#020047',
                     100: '#00000e',
                     200: '#01001d',
@@ -100,7 +100,7 @@ module.exports = {
                     800: '#5550ff',
                     900: '#aaa7ff'
                 },
-                'murrey': {
+                'mauve': {
                     DEFAULT: '#960A5F',
                     100: '#1e0213',
                     200: '#3b0425',
@@ -113,6 +113,12 @@ module.exports = {
                     900: '#fbbde2'
                 },
             },
+            fontFamily: {
+                'beaumont': ['TAN-BEAUMONT', 'serif'],
+                'playfair': ['PlayfairDisplay', 'serif'],
+                'custom-sans': ['system-ui', 'sans-serif'],
+                'mono': ['Jetbrains Mono', 'monospace'],                
+            }
         },
     },
     plugins: [],
